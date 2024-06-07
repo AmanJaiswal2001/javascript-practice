@@ -1,0 +1,51 @@
+body{
+    margin: 0%;
+    
+}
+
+
+.count{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    text-align: center;
+}
+.counter{
+    width: 25%;
+    /* height: 25%; */
+    background-color: gainsboro;
+    margin: auto;
+    border-radius: 1rem;
+    opacity: .8;
+    
+}
+
+.counter:hover{
+    opacity: 1;
+}
+.btn{
+    margin: 1rem;
+    width: 4.5rem;
+    height: 1.95rem;
+    background-color: rgb(175, 175, 175);
+    border: none;
+    opacity: .9;
+    cursor: pointer;
+    border-radius: 5rem;
+    color: black;
+}
+
+@media (max-height :600px) {
+    
+        .counter{
+            height: 25%;
+        }
+    }
+
+
+/* @media (min-height :400px)  {
+    .counter{
+        height: 45%;
+    }
+} */
